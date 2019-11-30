@@ -20,6 +20,7 @@ app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 app.use('/api/adminUsers', require('./routes/api/adminUsers'));
+app.use('/api/adminAuth', require('./routes/api/adminAuth'));
 
 const PORT = process.env.PORT || 8000;
 
